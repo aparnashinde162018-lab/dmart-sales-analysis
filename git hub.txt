@@ -1,0 +1,52 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\11.0\excel>git init
+Initialized empty Git repository in D:/11.0/excel/.git/
+
+D:\11.0\excel>git add .
+
+D:\11.0\excel>git commit -m "dmart-sales-analysis "
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Dell@DESKTOP-ABM9E4L.(none)')
+
+D:\11.0\excel> git config --global user.email "aparnashinde162018@gmail.com"
+
+D:\11.0\excel>git config --global user.name "aparnashinde162018"
+
+D:\11.0\excel>git commit -m "dmart-sales-analysis "
+[master (root-commit) 7a67ce5] dmart-sales-analysis
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Dataset_Dmart.xlsx
+
+D:\11.0\excel>git branch -M main
+
+D:\11.0\excel>git remote add origin https://github.com/aparnashinde162018-lab/dmart-sales-analysis.git
+
+D:\11.0\excel>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 878.85 KiB | 14.41 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/aparnashinde162018-lab/dmart-sales-analysis.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\11.0\excel>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+D:\11.0\excel>
