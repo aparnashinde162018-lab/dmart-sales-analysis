@@ -1,0 +1,34 @@
+D:\11.0\excel>git init
+Reinitialized existing Git repository in D:/11.0/excel/.git/
+
+D:\11.0\excel>git add .
+
+D:\11.0\excel>git commit -m "updated"
+[main 3d4f479] updated
+ 14 files changed, 52 insertions(+)
+ create mode 100644 1-3 Dataset_Dmart.xlsx
+ create mode 100644 10.Dmart_RetailBusiness.xlsx
+ create mode 100644 4. DMart_Retail_dataset.xlsx
+ create mode 100644 5. Dmart_RetailBusiness.xlsx
+ create mode 100644 6. Dmart_RetailBusiness.xlsx
+ create mode 100644 6.Dmart_RetailBusiness.xlsx
+ create mode 100644 7. Dmart_RetailBusiness.xlsx
+ create mode 100644 8.Dmart_RetailBusiness.xlsx
+ create mode 100644 9.Dmart_RetailBusiness.xlsx
+ create mode 100644 Dmart_RetailBusiness (1).xlsx
+ create mode 100644 Dmart_RetailBusiness.xlsx
+ create mode 100644 git hub.txt
+ create mode 100644 lab 4.xlsx
+
+D:\11.0\excel>git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 22.84 MiB | 1.17 MiB/s, done.
+Total 16 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/aparnashinde162018-lab/dmart-sales-analysis.git
+   7a67ce5..3d4f479  main -> main
+
+D:\11.0\excel>
