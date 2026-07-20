@@ -1,0 +1,32 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\11.0\excel>git remote add origin https://github.com/aparnashinde162018-lab/dmart-sales-analysis.git
+error: remote origin already exists.
+
+D:\11.0\excel>git pull origin
+Already up to date.
+
+D:\11.0\excel>git add .
+
+D:\11.0\excel>git commit -m "updated"
+[main 3d104ff] updated
+ 3 files changed, 34 insertions(+)
+ create mode 100644 git steps.txt
+ create mode 100644 ~$10.Dmart_RetailBusiness.xlsx
+
+D:\11.0\excel>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 125.06 KiB | 2.40 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/aparnashinde162018-lab/dmart-sales-analysis.git
+   3d4f479..3d104ff  main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\11.0\excel>
+
+
